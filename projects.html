@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Marc Dominic Magat</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css\bootstrap.min.css">
+      <script src="scripts\jquery-3.3.1.min.js"></script>
+      <script src="scripts\bootstrap.min.js"></script>
+      <style type="text/css">
+      @media screen and (max-width: 768px){
+        #jumbotron-text{
+          text-align: center;
+        }
+      }
+        #jumbotron{
+          background-color: rgb(6,69,133); 
+          color: rgb(255,255,255);
+        }
+        #table-information tr th{
+          text-align: right;
+        }
+        .modal-body div.row div img{
+          margin-top: 10px;
+        }
+        *{
+          font-family: "Century Gothic"
+        }
+        .myItem{
+        	min-height: 40vh;
+        }
+        .itemImage{
+          cursor: pointer;
+        }
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" id="jumbotron">
+        <div class="row">
+          <div class="col-sm-4 col-md-2">
+            <img src="images\formalme.png" class="img-circle img-responsive" alt="Marc Dominic M. Magat" style="max-width: 100%">
+          </div>
+          <div class="col-sm-8 col-md-10 text-left" id="jumbotron-text">
+            <!--<h1>Please blur sensitive data</h1>-->
+            <h1>Marc Dominic M. Magat</h1> 
+            <p>.Net Developer</p> 
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="index.html">Introduction</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Marc Dominic Magat (Resume).pdf" target="_blank">View Resume</a></li>
+          </ul>
+          <hr>
+          <br>
+        </div>
+
+        <!-- Here starts content -->
+        <div class="col-sm-9" style="margin-bottom:5em;">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#softwaredevelopment">Software Development</a></li>
+            <li><a data-toggle="tab" href="#graphicdesign">Graphic and Design</a></li>
+          </ul>
+          <center><i>Click image for details</i></center>
+          <div class="tab-content">
+            <div id="softwaredevelopment" class="tab-pane fade in active">
+              <!--<div class="row">-->
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>Eastwest Bank Projects <br><small>Eastwest Bank</small></h3>
+                  <img src="images\noscreenshotavailable.png" class="img img-thumbnail itemImage" alt="Eastwest Cover" style="max-width: 100%" data-toggle="modal" data-target="#eastwestBankModal">
+                  <div id="eastwestBankModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Eastwest Bank Projects <br><small>Eastwest Bank</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>I have developed below applications in Eastwest Bank.</p>
+                        	<br><b>PESONet Inward Application</b>
+              							<br>I have used C#, ASP.Net (Classic), T24 and GoAnywhere MFT for this project. This is where I am exposed to Web APIs/Web Services.
+              							<br>
+              							<br><b>SCCP Application</b>
+              							<br>I have used C#, ASP.Net (Classic), T24 and GoAnywhere MFT for this project. In this project, I have experienced IBM MQ.
+              							<br>
+              							<br><b>Various T24 Programs/Modules</b>
+              							<br>Developed programs on the core banking system of Eastwest Bank depending on the requirements of the business
+              							<br>
+              							<br><b>Various GoAnywhere Workflows/Project</b>
+              							<br>Created workflows/projects related to file transferring or sending of emails.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>Axtaris: e-Anthology System with Anti-Plagiarism <br><small>Dalubhasaan ng Lungsod ng Lucena</small></h3>
+                  <img src="images\softwaredevelopment\axtaris\0.png" class="img img-thumbnail itemImage" alt="Axtaris Cover" style="max-width: 100%" data-toggle="modal" data-target="#axtarisModal">
+                  <div id="axtarisModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Axtaris: e-Anthology System with Anti-Plagiarism <br><small>Dalubhasaan ng Lungsod ng Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>This thesis of mine has been awarded as Best Capstone when I graduated. It's main feature is Anti-Plagiarism.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\11.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\12.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\13.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\14.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\axtaris\15.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-4"><img src="images\softwaredevelopment\axtaris\16.png" class="img-responsive" alt="Infrastructure" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>City Mayor's Office Financial and Burial Assistance System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\cmofinancial\0.png" class="img img-thumbnail itemImage" alt="Financial and Burial System Cover" style="max-width: 100%" data-toggle="modal" data-target="#financialAndBurialModal">
+                  <div id="financialAndBurialModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">City Mayor's Office Financial and Burial System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>I have developed these while I was an intern at the City Mayor's Office. It's main goal is to save the record of clients and to fasten the screening process of the assistance (a program of the City Mayor)</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\0.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-2"><img src="images\softwaredevelopment\cmofinancial\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmofinancial\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>                          
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--</div>-->
+              <!--<div class="row">-->
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>City Mayor's Office Memo Recording System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\cmomemorecordingsystem\0.png" class="img img-thumbnail itemImage" alt="Memo Recording System Cover" style="max-width: 100%" data-toggle="modal" data-target="#memorecordingmodal">
+                  <div id="memorecordingmodal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">City Mayor's Office Memo Recording System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Managing memo might me confusing and time consuming when using multiple excel sheet. And that gave birth to this system. It removes stated prior problems and eases the user's job. Auto-numbering of memos and summarized reports are its features. </p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\0.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-2"><img src="images\softwaredevelopment\cmomemorecordingsystem\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmomemorecordingsystem\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>City Mayor's Office Building Permit System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\cmobuildingpermit\0.png" class="img img-thumbnail itemImage" alt="Building Permit System Cover" style="max-width: 100%" data-toggle="modal" data-target="#buildingPermitModal">
+                  <div id="buildingPermitModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">City Mayor's Office Building Permit System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Managing the records of building permit seems very difficult especially they used two separate excel for the process. But with this system, it's goodbye separate excel. This system also computes the time span of the whole building permit process. It also provides summarized reports, like average time span of process for the month. </p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmobuildingpermit\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-4"><img src="images\softwaredevelopment\cmobuildingpermit\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--</div>-->
+              <!--<div class="row">-->
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>City Mayor's Office Document Recording System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\documentrecordingsystem\0.png" class="img img-thumbnail itemImage" alt="Document Recording System Cover" style="max-width: 100%" data-toggle="modal" data-target="#documentRecordingModal">
+                  <div id="documentRecordingModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">City Mayor's Office Document Recording System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Finding documents when a client is following up can be tiring specially of the papers are bundled up together, or looking at more than 3 logs, manually traversing each page just to search a single record. With this, user will be at ease when locating a specific document. With a single click of a button, the user can find all he needs.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\11.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\documentrecordingsystem\12.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-4"><img src="images\softwaredevelopment\documentrecordingsystem\13.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>City Mayor's Office Social Services Recording System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\socialservices\0.png" class="img img-thumbnail itemImage" alt="Social Services Recording System Cover" style="max-width: 100%" data-toggle="modal" data-target="#socialServicesRecordingModal">
+                  <div id="socialServicesRecordingModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">City Mayor's Social Services Recording System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>With more than thousand of clients for social services, record keeping would be difficult. Tracking the gender of clients is also difficult. But with this system, gender will be computed automatically and will be included in the report. And if you need a hard copy, you can just print it out. </p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\0.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socialservices\11.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>Lucena City ID System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\idsystem\0.png" class="img img-thumbnail itemImage" alt="ID System System Cover" style="max-width: 100%" data-toggle="modal" data-target="#lucenaCityIDModal">
+                  <div id="lucenaCityIDModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Lucena City ID System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Lucena City provides ID for its citizens, for example is the Yellow Card. With more than 10,000 Yellow Card Citizens, I can't imagine the work it would have been editing each ID one by one by using image editing tools. But this system removes editing them one by one. This reduce the work for the editor, and more importantly, time in processing id has been greatly reduced. This has been used for the Yellow Card Program, and ID's are already being given right after their details have been encoded. Compared to the prior process that takes months to release an ID.</p>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-2"><img src="images\softwaredevelopment\idsystem\11.jpg" class="img-responsive" alt="Sample ID" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\12.jpg" class="img-responsive" alt="Sample ID" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\0.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-2"><img src="images\softwaredevelopment\idsystem\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\idsystem\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>UPAD Record Management System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\upadrecordmanagement\0.png" class="img img-thumbnail itemImage" alt="UPAD Record Management System Cover" style="max-width: 100%" data-toggle="modal" data-target="#UPADRecordModal">
+                  <div id="UPADRecordModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">UPAD Record Management System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Urban Poor Management System ease the record keeping for them. This system stores every HOAI or Associations and every member in it.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\upadrecordmanagement\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\upadrecordmanagement\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\upadrecordmanagement\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\upadrecordmanagement\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\upadrecordmanagement\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\upadrecordmanagement\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-4"><img src="images\softwaredevelopment\upadrecordmanagement\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              <!--</div>-->
+
+
+
+
+
+
+
+
+
+              <!--<div class="row">-->
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>SocServ: City Mayor's Office Social Services System <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\socserv\0.png" class="img img-thumbnail itemImage" alt="SocServ System Cover" style="max-width: 100%" data-toggle="modal" data-target="#socservModal">
+                  <div id="socservModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">SocServ: City Mayor's Office Social Services System <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>With the vision to digitalize all social services process in the City Mayor's Office, SocServApp has been created. It holds records of clients and their previous transactions involving the social services. With the previous process, workers usually write records of clients in forms or sheets, usually four copies each client. It takes much time and with the  automation of this process, time processing would be decreased significantly. A single print button will replace all handwritten documents. This system is still on development and is for approval.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\10.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\11.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\12.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>  
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\13.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\14.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\socserv\15.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-4"><img src="images\softwaredevelopment\socserv\16.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>ACE POS: College Project<br><small>Dalubhasaan ng Lungsod ng Lucena</small></h3>
+                  <img src="images\softwaredevelopment\collegeprojects\acepos\0.png" class="img img-thumbnail itemImage" alt="ACE POS Cover" style="max-width: 100%" data-toggle="modal" data-target="#aceposModal">
+                  <div id="aceposModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">ACE POS: College Project <br><small>Dalubhasaan ng Lungsod ng Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>A POS Program as my project during college.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\acepos\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              <!--</div>-->
+
+              <!--<div class="row">-->
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>Samsung Inventory: College Project<br><small>Dalubhasaan ng Lungsod ng Lucena</small></h3>
+                  <img src="images\softwaredevelopment\collegeprojects\samsunginventory\0.png" class="img img-thumbnail itemImage" alt="Samsung Inventory Cover" style="max-width: 100%" data-toggle="modal" data-target="#samsungInventoryModal">
+                  <div id="samsungInventoryModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Samsung Inventory: College Project <br><small>Dalubhasaan ng Lungsod ng Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>An Inventory System as my project during college</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\collegeprojects\samsunginventory\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--item-->
+                <div class="col-lg-6 myItem">
+                  <h3>CMO TMT: Trophies Medals and Tarpaulins <br><small>City of Lucena</small></h3>
+                  <img src="images\softwaredevelopment\cmotmt\0.png" class="img img-thumbnail itemImage" alt="CMO TMT System Cover" style="max-width: 100%" data-toggle="modal" data-target="#cmotmtModal">
+                  <div id="cmotmtModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">CMO TMT: Trophies Medals and Tarpaulins <br><small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>An android app that I have developed using Xamarin and SQLite. I developed this for the use of City Mayor's Office, for the requesting and releasing of trophies, medals and tarpaulins department which is also my task so I am the one using it. It stores records of requests and also has inventory of trophies and medals.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\1.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\2.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\3.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\4.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\5.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\6.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\7.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\8.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\softwaredevelopment\cmotmt\9.png" class="img-responsive" alt="System Screenshot" style="max-width: 100%"></div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--</div>-->
+            </div>
+
+
+
+
+            <div id="graphicdesign" class="tab-pane fade">
+              <div class="row">
+                <!--item-->
+                <div class="col-sm-6">
+                  <h3>Brochure <small>City of Lucena</small></h3>
+                  <img src="images\graphicdesign\brochure\cityoflucena\cover.png" class="img img-thumbnail itemImage" alt="Brochure Cover" style="max-width: 100%" data-toggle="modal" data-target="#brochureCityOfLucenaBrochure">
+                  <div id="brochureCityOfLucenaBrochure" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Brochure <small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>This brochure is being given to clients like businessman going to the Office of the City Mayor. I am responsible for the layout of this brochure.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\cover.png" class="img-responsive" alt="Cover" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\departmentheadsandmissionvision.png" class="img-responsive" alt="Department Heads and Mission Vision" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\messageandtableofcontent.png" class="img-responsive" alt="Message and Table of Contents" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\blhp.png" class="img-responsive" alt="BLHP" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\donvictor.png" class="img-responsive" alt="Don Victor" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\landfill.png" class="img-responsive" alt="Landfill" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\infra.png" class="img-responsive" alt="Infrastructure" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\education.png" class="img-responsive" alt="Education" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\socialservices.png" class="img-responsive" alt="Social Services" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\onestopshop.png" class="img-responsive" alt="One Stop Shop" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\awardsandachievement.png" class="img-responsive" alt="Awards and Achievements" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\brochure\cityoflucena\profileandpictures.png" class="img-responsive" alt="Profile" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--item-->
+                <div class="col-sm-6">
+                  <h3>Leaflet <small>City of Lucena</small></h3>
+                  <img src="images\graphicdesign\leaflet\cityoflucena\cover.jpg" class="img img-thumbnail itemImage" alt="Leaflet Cover" style="max-width: 100%" data-toggle="modal" data-target="#leafletCityOfLucenaModal">
+                  <div id="leafletCityOfLucenaModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Leaflet <small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>This leaflet is is being given to clients of the Office of the City Mayor. It contains compressed details of what the City of Lucena is all about. This has been printed more than thousand of copies.</p>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-2"><img src="images\graphicdesign\leaflet\cityoflucena\cover.jpg" class="img-responsive" alt="Cover" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\leaflet\cityoflucena\content.jpg" class="img-responsive" alt="Content" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <h3>Tarpaulins <small>City of Lucena</small></h3>
+                  <img src="images\graphicdesign\tarp\cityoflucena\msgay.jpg" class="img img-thumbnail itemImage" alt="Tarpaulin Cover" style="max-width: 100%" data-toggle="modal" data-target="#tarpaulinCityOfLucenaModal">
+                  <div id="tarpaulinCityOfLucenaModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Tarpaulins <small>City of Lucena</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>These are some of many tarpaulins that I have created for my clients.</p>
+                          <div class="row">
+                            <div class="col-sm-4 col-sm-offset-2"><img src="images\graphicdesign\tarp\cityoflucena\msgay.jpg" class="img-responsive" alt="MS Gay" style="max-width: 100%"></div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\tarp\cityoflucena\death.jpg" class="img-responsive" alt="Death Template" style="max-width: 100%"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4">
+                              <img src="images\graphicdesign\tarp\cityoflucena\lcca2.jpg" class="img-responsive" alt="LCCA" style="max-width: 100%">
+                              <img src="images\graphicdesign\tarp\cityoflucena\lcca.jpg" class="img-responsive" alt="LCCA" style="max-width: 100%">
+                              <img src="images\graphicdesign\tarp\cityoflucena\congrats3.jpg" class="img-responsive" alt="Congratulations" style="max-width: 100%">
+                            </div>
+                            <div class="col-sm-4">
+                              <img src="images\graphicdesign\tarp\cityoflucena\burial.jpg" class="img-responsive" alt="Burial" style="max-width: 100%">
+                              <img src="images\graphicdesign\tarp\cityoflucena\congrats4.jpg" class="img-responsive" alt="Congratulations" style="max-width: 100%">
+                              <img src="images\graphicdesign\tarp\cityoflucena\penafrancia.jpg" class="img-responsive" alt="Penafrancia" style="max-width: 100%">
+                            </div>
+                            <div class="col-sm-4">
+                              <img src="images\graphicdesign\tarp\cityoflucena\congrats.jpg" class="img-responsive" alt="Congratulations" style="max-width: 100%">
+                              <img src="images\graphicdesign\tarp\cityoflucena\alumnihomecoming.jpg" class="img-responsive" alt="Alumni Homecoming" style="max-width: 100%">
+                              <img src="images\graphicdesign\tarp\cityoflucena\congrats2.jpg" class="img-responsive" alt="Congratulations" style="max-width: 100%">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--item-->
+                <div class="col-sm-6">
+                  <h3>Tarpaulins <small>Fitness Bods</small></h3>
+                  <img src="images\graphicdesign\tarp\kuyaallan\poster.jpg" class="img img-thumbnail itemImage" alt="Tarpaulin Cover" style="max-width: 100%" data-toggle="modal" data-target="#tarpaulinKuyaAllanModal">
+                  <div id="tarpaulinKuyaAllanModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Tarpaulins <small>Fitness Bods</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>I became the graphic artist for fitness bods gym.</p>
+                          <div class="row">
+                            <div class="col-sm-4"><img src="images\graphicdesign\tarp\kuyaallan\poster.jpg" class="img-responsive" alt="Poster" style="max-width: 100%"></div>
+                            <div class="col-sm-4">
+                              <div class="row">
+                                <img src="images\graphicdesign\tarp\kuyaallan\middle.jpg" class="img-responsive" alt="Main" style="max-width: 100%">
+                                <img src="images\graphicdesign\tarp\kuyaallan\candidates.jpg" class="img-responsive" alt="Candidates" style="max-width: 100%">
+                              </div>
+                            </div>
+                            <div class="col-sm-4"><img src="images\graphicdesign\tarp\kuyaallan\screening.jpg" class="img-responsive" alt="Screening" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!--item-->
+                <div class="col-sm-6">
+                  <h3>College Project <small>Me</small></h3>
+                  <img src="images\graphicdesign\collegeediting\poster.png" class="img img-thumbnail itemImage" alt="Project Cover" style="max-width: 100%" data-toggle="modal" data-target="#projectMeModal">
+                  <div id="projectMeModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">College Project <small>Me</small></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Here are my projects I have done while I were in college.</p>
+                          <div class="row">
+                            <center>
+                              <div class="col-sm-12"><img src="images\graphicdesign\collegeediting\poster.png" class="img-responsive" alt="Poster" style="max-width: 100%"></div>
+                            </center>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6"><img src="images\graphicdesign\collegeediting\front.jpg" class="img-responsive" alt="Front of Flyers" style="max-width: 100%"></div>
+                            <div class="col-sm-6"><img src="images\graphicdesign\collegeediting\back.jpg" class="img-responsive" alt="Back of Flyers" style="max-width: 100%"></div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
